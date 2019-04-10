@@ -60,7 +60,7 @@ if r==1:
 elif r==2: 
     i=0
     while not winner1 or winner2: 
-        fn.drawBoard(board)
+        
         if i%2 == 1: 
             print('Player 1, where do you want to put your', playerMark1,'?')
             pos = input()
